@@ -1,0 +1,92 @@
+const { test } = require('../../../Fixtures/pomFixture');
+const data = require('../../../testdata.json');
+const {saveButton,success,settings,workSchedulesPtoPage,createButton}= require('../../../utils');
+
+
+test.beforeEach(async ({ page,login}) => {
+    await page.goto('/');
+    await login.loginFlow(data.Username.validEmail.admin,data.Password.validPassword);
+    await settings(page)
+    await workSchedulesPtoPage(page)
+
+
+  });
+
+
+
+  test.describe('Test the Work Schdules and PTO in the Settings as an Admin Role', () => {
+    test.describe.configure({ mode: 'serial' });
+    test('Add New Work Location', async ({workLocation,page}) => {
+  
+        await workLocation.addWorkLocation();
+        await workLocation.workLocationName();
+        await workLocation.address();
+        await workLocation.clockInType();
+        await workLocation.geofenceRadius();
+        await createButton(page)
+        
+        
+    });
+
+    test('Edit the Work Location', async ({workLocation,page}) => {
+
+        await workLocation.workLocationSearch();
+        await workLocation.editWorkLocation();
+        await workLocation.editWorkLocationName();
+        await workLocation.editAddress();
+        await workLocation.editClockInType();
+        await workLocation.editGeofenceRadius();
+        await saveButton(page)
+       
+    });
+
+    test('Delete the Work Location', async ({workLocation,page}) => {
+
+      await workLocation.workLocationSearch();
+      await workLocation.deleteWorkLocation();
+      await workLocation.confirmDeleteButton();      
+      await success('WorkLocation deleted successfully!',page)
+     
+  });
+
+  
+  });
+
+  test.describe('Test the Departments in the Settings as an Admin Role', () => {
+    test.describe.configure({ mode: 'serial' });
+    test('Add New Department', async ({department,page}) => {
+  
+        await department.addDepartment();
+        await department.departmentName();
+        await department.departmentType();
+        await department.departmentPto();
+        await department.departmentWorkSchedule();
+        await createButton(page)
+        
+        
+    });
+
+    test('Edit the Department', async ({department,page}) => {
+
+        await department.departmentSearch();
+        await department.editDepartment();
+        await department.editDepartmentName();
+        await department.editDepartmentType();
+        await department.editDepartmentPto();
+        await department.editDepartmentWorkSchedule();
+        await department.editDepartmentWorkLocation();
+        await saveButton(page)
+       
+    });
+
+    test('Delete the Department', async ({department,page}) => {
+
+      await department.departmentSearch();
+      await department.deleteDepartment();
+      await department.confirmDeleteButton();      
+      await success('Department deleted successfully!',page)
+     
+  });
+
+  
+  });

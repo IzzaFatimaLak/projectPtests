@@ -1,0 +1,280 @@
+{
+ "url":{
+     "Paismo":"https://app-stage.paismo.com/"
+ },
+ "Auth":{
+    "token":""
+
+ },
+
+     "Username":{
+
+         "validEmail":
+         {    
+            "admin":"salman.ahmad+test@paismo.com",
+            "hr":"salman.ahmad+hr@paismo.com",
+            "emp":"salman.ahmad+employee@paismo.com"
+        },
+
+         "invalidEmail":{
+
+            "admin":"salman.naz+test@paismo.com",
+            "hr":"salman.ahmad+admin@paismo.com",
+            "emp":"salman.ahmad+emp@paismo.com"
+
+         }
+
+     },
+
+     "Password":{
+         "validPassword":"Pass@490",
+         "invalidPassword":"sobia123"
+     },
+    
+     "Profile":{
+        "first_name":"QA Testing",
+        "middle_name":"One",
+        "last_name":"Two",
+        "street_address":"Testing 24 Street",
+        "city":"Lahore",
+        "province":"Punjab",
+        "country":"Pakistan",
+        "timezone":"Karachi",
+        "personal_number":"923226563616",
+        "personal_email":"testupdate@gmail.com",
+        "date_of_birth": "12/10/2023",
+        "gender":"Male",
+        "ethnicity":"Asian",
+        "citizenship":"Pakistan",
+        "marital_status":"Single",
+        "active_work_visa":"Pending",
+        "visa_expire_date":"12/12/2025",
+        "father_name":"Senior QA",
+        "mother_name":"test qa",
+        "spouse_name":"QA and QA"
+    },
+
+
+
+    "Emp":{
+        "first_name":"Bilal",
+        "last_name":"Anwar",
+        "personal_email":"salman.ahmad+employee@paismo.com"
+    },
+
+
+    "Country":{
+
+        "national_tax_number":"123432142",
+        "cnic":"3212343213456",
+        "cnic_expire_date":"12/12/2024"
+        
+    },
+
+    "Emergency":{
+
+        "emergency_contact_name":"EM QA",
+        "contact_relationship":"Brother",
+        "emergency_contact_number":"923221212124",
+        "emergency_contact_name_2":"EM QA",
+        "contact_relationship_2":"Father",
+        "emergency_contact_number_2":"923221234567",
+        "known_conditions":"Agrees"
+        
+    },
+
+    "Employment":{
+
+        "work_email":"test@company.com",
+        "work_phone":"923221212345",
+        "employment_start_date":"12/12/2025",
+        "employment_end_date":"12/12/2026",
+        "work_schedule":"Tes"
+        
+    },
+
+    "RolesAndCompensation":{
+
+        "department":"Test",
+        "designation":"QA Engineer",
+        "grade":"1st",
+        "team":"Quality Assurance",
+        "reports_to":"Ab",
+        "amount":"4000",
+        "notes":"Test"
+        
+    },
+
+    "PayrollBankingDetails":{
+
+        "bank_country":"Pakistan",
+        "bank_name":"HBL",
+        "account_holder_name":"QA Testing",
+        "account_number":"21321345432",
+        "routing_number":"432567432",
+        "branch_name":"Lahore Main",
+        "branch_address":"Model Town",
+        "swift":"W323"
+        
+    },
+
+    "Offboarding":{
+
+        "last_working_date":"12/12/2026",
+        "last_employment_date":"12/12/2026",
+        "offboarding_interview_date":"12/01/2026",
+        "offboarding_interview_notes":"All Good"
+        
+    },
+
+    "TimeOffRequest":{
+
+        "who":"Ab",
+        
+        "start_date_time":
+        {
+            "date":"6/01/2025",
+            "time":"11:30 AM",
+            "editDate":"6/02/2025",
+            "editTime":"09:30 AM"
+        },
+
+        "end_date_time":
+        {
+
+            "date":"6/03/2025",
+            "time":"06:00 PM",
+            "editDate":"6/07/2025",
+            "editTime":"07:00 PM"
+        },
+
+        "reason":"other",
+        "note":"Marriage Propsal",
+        "review_note":"For Reviwes of Employeer"
+        
+    },
+
+    "EditTimeOffRequest":{
+        
+        "start_date_time":
+        {
+            "date":"06/01/2025",
+            "time":"11:30 AM"
+        },
+
+        "end_date_time":
+        {
+
+            "date":"06/03/2025",
+            "time":"06:00 PM"
+        },
+
+        "reason":"other",
+        "note":"Updated"
+        
+    },
+
+    "ShiftScheduler":{
+
+        "title":"Test Morning Shift",
+        
+        "start_time":
+        {
+            "hours":"9",
+            "minutes":"0",
+            "meridiem":"AM"
+        },
+
+        "end_time":
+        {
+            "hours":"5",
+            "minutes":"0",
+            "meridiem":"PM"
+        },
+
+        "start_date":
+        {
+            "date":"6/01/2025",
+            "editDate":"6/02/2025"
+        },
+
+        "end_date":
+        {
+            "date":"6/03/2025",
+            "editDate":"6/07/2025"
+        },
+
+        "clockin_type":["No requirements","Location Only","Location + Photo"],
+
+        "note":"Marriage Propsal",
+        "review_note":"For Reviwes of Employeer"
+        
+    },
+
+
+
+
+
+    "WorkSchedulePTO":
+    {
+        "work_schedule_name": "Testing Today",
+        "edit_work_schedule_name":"Testing Today"
+
+    },
+
+
+    "DepartmentWorkLocation":
+    {
+        "work_location_name": "Sanity",
+        "work_location_address":"Pakistan",
+        "clock_in_type":"Location Only",
+        "geofence_radius":"5",
+        "department_name":"Automated",
+        "department_pto":"off",
+        "department_work_schedule":"Testi",
+        "department_work_location":"Testing"
+
+    },
+    
+    "PayrollCompanyDetails":
+    {
+        "company_name": "Devbeans",
+        "company_adress":"Lahore 21, Pakistan",
+        "company_contact_number":"923221212321",
+        "company_email":"info@devbeans.com"
+
+    },
+
+    "PayRollBankingDetail":
+    {
+        "bank_country":"Pakistan",
+        "bank_name":"HBL",
+        "account_holder_name":"Devbeans",
+        "account_number":"3221232134",
+        "bank_key":"f21a",
+        "branch_name":"Lahore",
+        "branch_address":"Lahore 123",
+        "swift":"23423Fvtest"
+
+    },
+
+    
+    "PayrollCustomeField":
+    {
+        "field_name": "Sanity",
+        "emp_name": "Abubakar",
+        "payroll_field": "Basic",
+        "dep_name":"Upda",
+        "start_date": "12/11/2026",
+        "end_date":"12/12/2026"
+
+
+    }
+
+
+
+    
+     
+ }
+
+

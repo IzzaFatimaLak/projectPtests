@@ -1,0 +1,95 @@
+{
+  "cookies": [
+    {
+      "name": "__cf_bm",
+      "value": "YiB42t08WwTk8NRHMARri6ybsm5h_owUojfUiXUpcQc-1717067717-1.0.1.1-X2slhgMFo3Mpi1QYSRwNWuqBbijMDQYn3H97Y9Ey6W2ckDh1SlkLnsss_1Bc2SDu",
+      "domain": ".auth.paismo.com",
+      "path": "/",
+      "expires": 1717069517.124635,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "did",
+      "value": "s%3Av0%3Ae4d73250-1e75-11ef-a9b2-ff7c690a001f%3A7f7a8ac2c8cf87d750222ebfe9fe11d9efd54c9d33a85ebc69c97c5a18ba9b50.AwVUNgxBzw0jUapAed3tV2Av0LHWSHecEA%2Fdnqr4lOs",
+      "domain": "auth.paismo.com",
+      "path": "/",
+      "expires": 1748625318.204605,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "did_compat",
+      "value": "s%3Av0%3Ae4d73250-1e75-11ef-a9b2-ff7c690a001f%3A7f7a8ac2c8cf87d750222ebfe9fe11d9efd54c9d33a85ebc69c97c5a18ba9b50.AwVUNgxBzw0jUapAed3tV2Av0LHWSHecEA%2Fdnqr4lOs",
+      "domain": "auth.paismo.com",
+      "path": "/",
+      "expires": 1748625318.2047,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "auth0",
+      "value": "s%3AsmEmIKZ8xHw2pAp_Dc7PmQrvzp3p_06C.P1GJlRppnRmsrjt1cW1slXtNlFp5%2FQd%2BbqonZSH6cfI",
+      "domain": "auth.paismo.com",
+      "path": "/",
+      "expires": 1717326919.496859,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "auth0_compat",
+      "value": "s%3AsmEmIKZ8xHw2pAp_Dc7PmQrvzp3p_06C.P1GJlRppnRmsrjt1cW1slXtNlFp5%2FQd%2BbqonZSH6cfI",
+      "domain": "auth.paismo.com",
+      "path": "/",
+      "expires": 1717326919.496949,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "mp_2f7c834f6f33fba3d4ae4c41f617ec32_mixpanel",
+      "value": "%7B%22distinct_id%22%3A%20%22%24device%3A18fc936175c21b-00cefe8d99b76-1739317d-e1000-18fc936175c21b%22%2C%22%24device_id%22%3A%20%2218fc936175c21b-00cefe8d99b76-1739317d-e1000-18fc936175c21b%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D",
+      "domain": ".paismo.com",
+      "path": "/",
+      "expires": 1748603719,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_legacy_auth0.TgSoJEsDIyURHiC92tuZGik1ESTtUGty.is.authenticated",
+      "value": "true",
+      "domain": "app-stage.paismo.com",
+      "path": "/",
+      "expires": 1717154120,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "auth0.TgSoJEsDIyURHiC92tuZGik1ESTtUGty.is.authenticated",
+      "value": "true",
+      "domain": "app-stage.paismo.com",
+      "path": "/",
+      "expires": 1717154120,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://app-stage.paismo.com",
+      "localStorage": [
+        {
+          "name": "ld:63ea6d5945092b135fd60c09:$diagnostics",
+          "value": "{\"dataSinceDate\":1717067720232,\"droppedEvents\":0,\"eventsInLastBatch\":0,\"streamInits\":[]}"
+        }
+      ]
+    }
+  ]
+}
